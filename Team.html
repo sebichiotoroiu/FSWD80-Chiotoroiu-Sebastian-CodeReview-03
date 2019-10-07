@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team</title>
+    <link rel="stylesheet" href="css/stylesheet1.css">
+</head>
+<body>
+	<!-------Header start here--------->
+    <header>
+        <div class="header-container">
+            <img src="img/logo.png" alt="Car Insurance Logo">
+            <img class="banner" src="img/banner.png" alt="Full Stack Web Development course in Vienna">
+        </div>
+    </header>
+	<!-----------Header finish here-------------->
+	<!-----------Nav start here------------------>
+    <nav>
+        <ul>
+            <li><a href=".">Home</a></li>
+            <li><a href="Team.html">Team</a></li>
+        </ul>
+    </nav>
+    <!-------------Nav finish here--------------->
+    <!-------------Team members start here------->
+    <main class="team-members">
+        <h1 class="title">Team</h1>
+        <ul id="team"></ul>
+    </main>
+	<!-------------Team members end here--------->
+	<!-------------Footer start here------------->
+    <footer>
+        <nav>
+            <ul>
+                <li><a href=".">Home</a></li>
+                <li><a href="Team.html">Team</a></li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <img src="img/logo-inv.png">
+        </div>
+        <p class="copyright">Sebastian Chiotoroiu - CodeFactory 2019</p>
+    </footer>
+    <!------------Footer finish here------------->
+    <script src="js/Team.js"></script>
+    <script src="data/Team.json"></script>
+    <script>
+        var arrTeam = JSON.parse(teamMembers);
+        var teamContainer = document.getElementById('team');
+       
+        teamContainer.innerHTML =  GenerateTeamHTML(arrTeam);
+    </script>
+</body>
+</html>
+

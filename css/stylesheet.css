@@ -1,0 +1,657 @@
+
+body {
+	margin: 0;
+  padding: 0;
+
+}
+.container {
+  width: 1150px;
+  margin: 0 auto;
+}
+/*------------------Start Header------------------*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsla(0, 100%, 90%, 0.3);
+  width: 100%;
+  height: 150px;
+  margin: 0;
+  padding: 0;
+}
+#header_logo {
+  margin-top: 40px;
+  margin-left: 50px; 
+}
+
+#header_banner {
+  margin-top: 20px;
+  margin-right: 30px; 
+}
+/*----------------------End Header-------------------------*/
+/*----------------------Start navbar-----------------------*/
+.navbar {
+  background-color: hsl(0, 100%, 30%);
+  list-style-type: none;
+  padding: 1px;
+  margin: 0;
+  font-size: 14px; }
+
+.navbar li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px; }
+
+.navbar li a {
+  color: white;
+  text-decoration: none; }
+
+.navbar li a:hover {
+  background-color: lightgrey;
+  color: black;
+  padding: 1px 5px 1px 1px;
+  border-radius: 3px; 
+}
+/*----------------------------End navbar---------------------------*/
+
+/*----------------------------Start main-container-----------------*/
+.main-container {
+  width: 100%;
+  height: 60%;
+  position: relative;
+}
+
+.main-container-image {
+  width: 100%;
+  height: 700px;
+  background: url('../img/traffic-332857_1920.jpg');
+  background-size: cover;
+  padding-top: 5px;
+}
+
+h1 {
+  color: #FFF;
+  padding: 50px;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+.main-container-over-background {
+  border: 1px solid black;
+  position: absolute;
+  width: 80%;
+  height: 60%;
+  top: 200px;
+  left: 150px;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.main-container-text {
+    margin: 0;
+    padding: 50px;
+    background-color: #CECECE;
+    height: 105px;
+}
+
+.main-container-text > h2 {
+    margin: 10px;
+    font-size: 32px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.main-container-text > p {
+    margin-top: 5px;
+    font-size: 24px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.main-container-over-background-text {
+    text-align: center;
+}
+
+.main-container-over-background-text > h2 {
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #2C2C2C;
+}
+
+.main-container-over-background-form {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+     width: 50%;
+    height: 70px;
+    margin: 0 auto;
+}
+.main-container-over-background-form-name {
+    margin: 15px;
+    width: 50%;
+
+}
+
+.main-container-over-background-form-name > p {
+    text-align: left;
+    font-size: 18px;
+    margin: 0;
+}
+#your_name{
+    width: 80%;
+    height: 80%;
+    background-color: 
+}
+#age{
+    width: 80%;
+    height: 80%;
+}
+#country{
+    width: 80%;
+    height: 90%;
+}
+#power{
+    width: 80%;
+    height: 80%;
+}
+/*-------------End main-container-----------------*/
+/*------------Container button calculation--------*/
+.main-container-over-background-form-button {
+    text-align: center;
+    margin: 20px;
+}
+
+#submitbutton {
+    width: 20%;
+    height: 40px;
+    border-radius: 12px;
+    background-color: green;
+    color: white;
+    font-size: 26px;
+    cursor: pointer;
+    padding-bottom: 20px;
+    
+
+}
+.main-container-over-background-form-printresult {
+    text-align: center;
+    color: green;
+    font-size: 20px;
+}
+/*-------------------End calculation button and display result--------------*/
+/*--------------------Start Insurance content container--------------------------*/
+
+.insurance-content-container {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.standard-content {
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid grey;
+    border-top: 2px solid black;
+    width: 40%;
+    position: relative;
+    padding: 10px;
+    box-shadow: 2px 2px 3px #888888;
+}
+
+.standard-content > h3 {
+    margin-left: 40px;
+    font-size: 24px;
+    color: #7176A9;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+
+.standard-content > p {
+    margin-left: 40px;
+    margin-top: 0;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.standard-content > ul {
+    list-style: none;
+    margin-left: 25px;
+    font-family: sans-serif;
+}
+
+.standard-content > ul > li:before {
+    position: absolute;
+    left: 40px;
+    content: '✓';
+    color: #8DD1D3;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.standard-content > h4 {
+    margin: 40px 40px 10px;
+    font-family: sans-serif;
+}
+
+.protection_coverage {
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid grey;
+    border-top: 2px solid black;
+    width: 40%;
+    position: relative;
+    padding: 10px;
+    box-shadow: 2px 2px 3px #888888;
+}
+
+.protection_coverage > h3 {
+    margin-left: 40px;
+    font-size: 24px;
+    color: #7176A9;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+
+.protection_coverage > p {
+    margin-left: 40px;
+    margin-top: 0;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.protection_coverage > ul {
+    list-style: none;
+    margin-left: 25px;
+    font-family: sans-serif;
+}
+
+.protection_coverage > ul > li:before {
+    position: absolute;
+    left: 40px;
+    content: '✓';
+    color: #8DD1D3;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.protection_coverage > h4 {
+    margin: 40px 40px 10px;
+    font-family: sans-serif;
+}
+
+.insurance-text {
+    color: #B3B0AD;
+    font-family: sans-serif;
+}
+
+.insurance-text > sup {
+    vertical-align: super;
+    font-size: 10px;
+}
+
+/*--------------------End Insurance-Content-Container--------------------------*/
+
+/*--------------------Start Footer-Container--------------------------*/
+.footer-container {
+    background-color: #000;
+    margin-top: 100px;
+
+}
+
+.footer-nav > ul {
+    list-style: none;
+    margin: 5px 10px 5px;
+    padding: 10px;
+}
+
+.footer-nav > ul > li {
+    display: inline-block;
+    font-size: 24px;
+
+}
+
+.footer-nav > ul > li > a {
+    display: inline-block;
+    font-size: 20px;
+    color: #FFF;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.footer-logo {
+    text-align: end;
+    padding-right: 30px;
+}
+
+.footer-logo > img {
+    width: 20%;
+}
+
+.footer-name {
+    text-align: center;
+}
+
+.footer-name > h5 {
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 10px;
+}
+
+/*---------End Footer container--------*/
+
+
+
+@media (max-width: 760px) and (max-width: 1050px){
+
+body {
+  margin: 0;
+  padding: 0;
+
+}
+.container {
+  width: 95vw;
+  margin: 0 auto;
+
+}
+/*------------------Start Header------------------*/
+.header {
+  display: flex;
+  justify-content: flex-start;
+  background-color: hsla(0, 100%, 90%, 0.3);
+  height: 90px;
+}
+#header_logo {
+  margin-top: 20px;
+  margin-left: 30px; 
+}
+
+#header_banner {
+  display: none;
+}
+/*----------------------End Header-------------------------*/
+/*----------------------Start navbar-----------------------*/
+.navbar {
+  background-color: hsl(0, 100%, 30%);
+  list-style-type: none;
+  padding: 1px;
+  margin: 0;
+  font-size: 14px; 
+
+}
+
+.navbar li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px; }
+
+.navbar li a {
+  color: white;
+  text-decoration: none; }
+
+.navbar li a:hover {
+  background-color: lightgrey;
+  color: black;
+  padding: 1px 5px 1px 1px;
+  border-radius: 3px; 
+}
+/*----------------------------End navbar---------------------------*/
+
+/*----------------------------Start main-container-----------------*/
+.main-container {
+  flex-basis: 35%;
+  flex-flow: column;
+}
+
+.main-container-image {
+  width: 100%;
+  height: 300px;
+  background: url('../img/traffic-332857_1920.jpg');
+  background-size: cover;
+  padding-top: 5px;
+  flex-basis: 50%;
+  flex-flow:  column;
+  display: block;
+}
+h1 {
+  color: #FFF;
+  padding: 20px;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.main-container-over-background {
+  border: 1px solid black;
+  position: absolute;
+  width: 80%;
+  height: 65%;
+  top: 60px;
+  left: 50px;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.main-container-text {
+    margin: 0;
+    padding: 50px;
+    background-color: #CECECE;
+    height: 10px;
+}
+
+.main-container-text > h2 {
+    margin: 0px;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.main-container-text > p {
+    margin-top: 5px;
+    font-size: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.main-container-over-background-text {
+    text-align: center;
+}
+
+.main-container-over-background-text > h2 {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #2C2C2C;
+}
+
+.main-container-over-background-form {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+     width: 50%;
+    height: 50px;
+    margin: 0 auto;
+}
+.main-container-over-background-form-name {
+    margin: 10px;
+    width: 50%;
+
+}
+
+.main-container-over-background-form-name > p {
+    text-align: left;
+    font-size: 10px;
+    margin: 0;
+}
+
+
+/*-------------End main-container-----------------*/
+/*------------Container button calculation--------*/
+.main-container-over-background-form-button {
+    text-align: center;
+    margin: 20px;
+}
+
+#submitbutton {
+    width: 25%;
+    height: 15px;
+    border-radius: 12px;
+    background-color: green;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    padding-bottom: 20px;
+    
+
+}
+.main-container-over-background-form-printresult {
+    text-align: center;
+    color: green;
+    font-size: 10px;
+}
+
+/*-------------------End calculation button and display result--------------*/
+/*--------------------Start Insurance content container--------------------------*/
+
+.insurance-content-container {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.standard-content {
+    flex-basis: 45%;
+    flex-flow:  column;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid grey;
+    border-top: 2px solid black;
+    width: 20%;
+    padding: 10px;
+    box-shadow: 2px 2px 3px #888888;
+}
+
+.standard-content > h3 {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #7176A9;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+
+.standard-content > p {
+    margin-left: 10px;
+    margin-top: 0;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.standard-content > ul {
+    list-style: none;
+    margin-left: 1px;
+    font-family: sans-serif;
+}
+
+.standard-content > ul > li:before {
+    position: absolute;
+    left: 20px;
+    content: '✓';
+    color: #8DD1D3;
+    font-weight: bolder;
+    font-size: 8px;
+}
+
+.standard-content > h4 {
+    margin: 10px 10px 10px;
+    font-family: sans-serif;
+}
+
+.protection_coverage {
+    flex-basis: 45%;
+    flex-flow:  column;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid grey;
+    border-top: 2px solid black;
+    width: 20%;
+    position: relative;
+    padding: 10px;
+    box-shadow: 2px 2px 3px #888888;
+}
+
+.protection_coverage > h3 {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #7176A9;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+
+.protection_coverage > p {
+    margin-left: 10px;
+    margin-top: 0;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.protection_coverage > ul {
+    list-style: none;
+    margin-left: 1px;
+    font-family: sans-serif;
+}
+
+.protection_coverage > ul > li:before {
+    left: 20px;
+    content: '✓';
+    color: #8DD1D3;
+    font-weight: bolder;
+    font-size: 8px;
+}
+
+.protection_coverage > h4 {
+    margin: 10px 10px 10px;
+    font-family: sans-serif;
+}
+
+.insurance-text {
+    color: #B3B0AD;
+    font-family: sans-serif;
+}
+
+.insurance-text > sup {
+    vertical-align: super;
+    font-size: 10px;
+}
+
+/*--------------------End Insurance-Content-Container--------------------------*/
+
+/*--------------------Start Footer-Container--------------------------*/
+.footer-container {
+    background-color: #000;
+    margin-top: 80px;
+}
+
+.footer-nav > ul {
+    justify-content: center;
+}
+
+.footer-logo {
+    text-align: center;
+}
+
+.footer-logo > img {
+    width: 25%;
+}
+
+.footer-name {
+    text-align: center;
+}
+
+.footer-name > h5 {
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 10px;
+}
+
+/*---------End Footer container--------*/
+}
